@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import Card from "./styled/Recipe.styled";
 
-const RecipeCard = () => {
+const RecipeCard = ({ data }) => {
+  console.log(data);
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <Card>
+      <img src={data?.image} alt="" />
 
-export default RecipeCard
+      <h2>{data?.label}</h2>
+
+      <button>View More!</button>
+    </Card>
+  );
+};
+
+export default RecipeCard;

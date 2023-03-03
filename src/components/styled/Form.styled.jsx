@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const For = styled.div`
+const For = styled.form`
 display: block;
 margin: 1rem ;
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const REcipeCard = () => {
+const RecipeCard = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const REcipeCard = () => {
   )
 }
 
-export default REcipeCard
+export default RecipeCard

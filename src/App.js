@@ -1,14 +1,12 @@
 import React from "react";
-import {Router, Route} from "react-router-dom" 
-import Header from "./components/Header";
-import Login from "./pages/Login";
+import AppRouter from "./router/AppRouter";
 
 const App = () => {
-  return <>
-    <Login />
-
-
-  </>;
+  return (
+    <>
+     <AppRouter/>
+    </>
+  );
 };
 
 export default App;

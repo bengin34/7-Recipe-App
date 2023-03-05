@@ -1,4 +1,6 @@
-
+body{
+    background-color:rgba(242, 135, 4, 0.2) ;
+}
 
 /* Color Theme Swatches in Hex */
 .Treasurana---Geocaching-App-1-hex { color: #267365; }

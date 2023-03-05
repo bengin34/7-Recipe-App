@@ -7,6 +7,12 @@ export const NavLi = styled(Link)`
   text-decoration: none;
   margin: 1rem;
   font-size: 1.35rem;
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.9rem;
+  }
 `;
 
 const Nav = styled.nav`

@@ -4,8 +4,8 @@ import RecipeCard from "../components/RecipeCard";
 import axios from "axios";
 import CardContainer from "../components/styled/CardContainer.styled";
 
-const APP_KEY = "868efce0f9768e6ad20304cb34aaab3c";
-const APP_ID = "d0b4c0fe";
+const APP_KEY = "7c85f8295afbdda5151feabaea6b4f81";
+const APP_ID = "a19fd86c";
 const mealType = ["Breakfast", "Lunch", "Dinner", "Teatime"];
 
 const Home = () => {
@@ -52,3 +52,6 @@ const Home = () => {
 };
 
 export default Home;
+
+
+<div clasName=" flex text-center" ></div>

@@ -1,11 +1,31 @@
-import React from 'react'
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
-const Login = () => {
+const Login = ({ isLoggedin, setIsLoggedin }) => {
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setIsLoggedin(!isLoggedin);
+    navigate("/");
+  };
+
   return (
     <div>
-      
-    </div>
-  )
-}
+      <form onSubmit={handleSubmit}>
+        <div>
+          <input type="text" placeholder="USERNAME" />
+        </div>
+        <div>
+          <input type="password" placeholder="PASSWORD" />
+        </div>
 
-export default Login
+        <button type="submit" className="btn btn-primary">
+          LOGIN
+        </button>
+      </form>
+    </div>
+  );
+};
+
+export default Login;

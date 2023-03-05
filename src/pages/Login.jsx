@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import LoginContainer from "../components/styled/LoginContainer.styled";
 
 const Login = ({ isLoggedin, setIsLoggedin }) => {
   const navigate = useNavigate();
@@ -11,7 +12,8 @@ const Login = ({ isLoggedin, setIsLoggedin }) => {
   };
 
   return (
-    <div>
+    <LoginContainer>
+    <h1>LOGIN</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <input type="text" placeholder="USERNAME" />
@@ -24,7 +26,7 @@ const Login = ({ isLoggedin, setIsLoggedin }) => {
           LOGIN
         </button>
       </form>
-    </div>
+    </LoginContainer>
   );
 };
 

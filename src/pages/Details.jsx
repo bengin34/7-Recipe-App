@@ -9,7 +9,7 @@ const Details = () => {
     <DetailsContainer>
       <div className="header">
         {" "}
-        <h2>{data?.label}</h2>
+        <h1>{data?.label}</h1>
       </div>
       <div className="elements">
         {" "}

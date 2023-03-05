@@ -18,7 +18,6 @@ const AppRouter = () => {
         <Route path="/login" element={<Login isLoggedin={isLoggedin} setIsLoggedin={setIsLoggedin} />} />
 
         <Route path="/" element={<PrivateRouter isLoggedin={isLoggedin} />}>
-        {isLoggedin && <Navbar />}
           {isLoggedin ? (
           <>
             <Route path="/" element={<Home />} />

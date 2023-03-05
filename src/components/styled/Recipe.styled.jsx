@@ -7,32 +7,30 @@ const Card = styled.div`
   align-items: center;
   width: 20rem;
   max-width: 20rem;
-  max-height: 20rem;
-  background-color: rgba(242, 159, 4, 0.6);
-  /* border-radius: 1rem; */
-  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) */
+  height: 25rem;
+  background-color: rgba(242, 159, 4, 0.4);
+  margin-bottom:10px;
+  border:none;
+  border-radius:2rem;
+
 
   h2 {
     display: flex;
     justify-content: center;
     align-items: ccenter;
     align-self: center;
-    margin: 1rem 1rem;
+    margin: 2rem 1rem;
     color: #f23030;
   }
 
   img {
-    margin:0;
-    width: 20rem;
-    /* max-width: 10rem; */
-    margin-top:0;
-    max-height: 180px;
-    /* max-height: 150px; */
-    /* border-radius: 1rem; */
+    padding: 10px 10px;
+    width: 18rem;
+    height: 10rem;
+    border-radius:2rem;
   }
 
   button {
-    /* margin:1rem 1rem; */
     padding: 1rem 1rem;
     margin-bottom:1rem;
     border-radius: 1rem;
@@ -40,6 +38,10 @@ const Card = styled.div`
     border: none;
     color: #f23030;
     background-color: rgba(37, 114, 100, 0.8);
+  }
+  button:hover{
+    scale:1.12;
+    background-color: rgba(37, 114, 100, 0.9);
   }
 `;
 

@@ -5,6 +5,7 @@ const CardContainer = styled.div`
  flex-direction:row;
  justify-content:center;
  align-items:center;
+ height:300px;
  gap: 1rem;  
  flex-wrap:wrap;
  height:fit-content;

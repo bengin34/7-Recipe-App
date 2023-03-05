@@ -23,11 +23,11 @@ const Form = ({
   return (
     <For onSubmit={handleSubmit}> <input
       type="text"
-      placeholder="Search"
+      placeholder="Search a food"
       value={query}
       onChange={(e) => setQuery(e.target.value)}
     />
-    <button>Search</button>
+    
     <select
       name="mealType"
       id="mealType"
@@ -39,6 +39,7 @@ const Form = ({
         </option>
       ))}
     </select>
+    <button>Search</button>
     </For>
 
   );

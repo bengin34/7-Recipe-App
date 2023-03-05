@@ -28,7 +28,6 @@ const DetailsContainer = styled.div`
   .element{
     display:flex;
     flex-direction: column;
-    /* justify-content:center; */
     align-items:center;
     max-width:300px;
     max-height: 600px;
@@ -66,3 +65,4 @@ const DetailsContainer = styled.div`
 `;
 
 export default DetailsContainer;
+

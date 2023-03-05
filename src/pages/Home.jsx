@@ -5,8 +5,8 @@ import axios from "axios";
 import CardContainer from "../components/styled/CardContainer.styled";
 import Navbar from "../components/Navbar";
 
-const APP_KEY = "7c85f8295afbdda5151feabaea6b4f81";
-const APP_ID = "a19fd86c";
+const APP_KEY = process.env.REACT_APP_KEY;
+const APP_ID = process.env.REACT_APP_ID;
 const mealType = ["Breakfast", "Lunch", "Dinner", "Teatime"];
 
 const Home = () => {
@@ -53,6 +53,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-<div clasName=" flex text-center" ></div>

@@ -9,12 +9,13 @@ const DetailsContainer = styled.div`
  
   .elements{
     display:flex;
+    gap:  2rem;
     flex-grow: 1fr 1fr 1fr;
 
     img{
       max-width: 90%;
       max-height:50%;
-      margin: 2rem 1rem;
+      margin: 7rem 1rem;
       border-radius: 0.8rem;
     }
   }
@@ -23,8 +24,11 @@ const DetailsContainer = styled.div`
     display:flex;
     justify-content:center;
     /* align-items:center; */
+    max-width:300px;
     max-height: 600px;
     overflow: auto;
+    font-size: 1.125rem;
+    line-height:1.4;
   }
 `;
 

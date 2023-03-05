@@ -1,23 +1,11 @@
-import React from 'react'
-import { Routes, Route } from "react-router-dom";
-import { Navigate, Outlet } from 'react-router-dom';
-import Login from '../pages/Login';
+import React from "react";
+import { Navigate, Outlet } from "react-router-dom";
+
 
 const PrivateRouter = ({isLoggedin}) => {
-
-
-
-  return 
-  // ( isLoggedin ?  <Outlet/>
-   
-  //    : <Navigate path="/login" element={<Login />} exact />
-          
-    
-    
-  //   )
   
 
-  
-}
+  return isLoggedin ? <Outlet /> : <Navigate to="/login" />;
+};
 
-export default PrivateRouter
+export default PrivateRouter;

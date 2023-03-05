@@ -1,9 +1,11 @@
 import React from 'react'
 import AboutContainer from '../components/styled/AboutContainer.styled'
-
+import Navbar from "../components/Navbar";
 
 const About = () => {
   return (
+    <>
+    <Navbar/>
     <AboutContainer>
 
      <img src="https://img.freepik.com/free-photo/portrait-smiling-chef-uniform_329181-675.jpg" alt="" />
@@ -18,6 +20,7 @@ Chef Franco is dedicated to sharing his love of Italian cuisine with the world a
 <br></br>
 Join Chef Franco on a culinary journey that will tantalize your taste buds and transport you to the heart of Italy.</h4>
     </AboutContainer>
+    </>
   )
 }
 

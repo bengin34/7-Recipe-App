@@ -9,9 +9,11 @@ const For = styled.form`
     width: 12rem;
     font-size: 1.3rem;
     border-radius:1rem;
+  
 
     @media (max-width: 768px) {
       width: 100%;
+      padding: 0.5rem 0rem;
     }
   }
 

@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import RecipeCard from "../components/RecipeCard";
 import axios from "axios";
 import CardContainer from "../components/styled/CardContainer.styled";
+import Navbar from "../components/Navbar";
 
 const APP_KEY = "7c85f8295afbdda5151feabaea6b4f81";
 const APP_ID = "a19fd86c";
@@ -24,7 +25,7 @@ const Home = () => {
 
   return (
     <div>
-    
+      <Navbar/>
       <Header
         query={query}
         setQuery={setQuery}

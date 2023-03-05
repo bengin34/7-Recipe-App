@@ -4,6 +4,7 @@ import LoginContainer from "../components/styled/LoginContainer.styled";
 
 const Login = ({ isLoggedin, setIsLoggedin }) => {
   const navigate = useNavigate();
+  
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -16,13 +17,13 @@ const Login = ({ isLoggedin, setIsLoggedin }) => {
     <h1>LOGIN</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <input type="text" placeholder="USERNAME" />
+          <input type="text" placeholder="USERNAME" required />
         </div>
         <div>
-          <input type="password" placeholder="PASSWORD" />
+          <input type="password" placeholder="PASSWORD" required/>
         </div>
 
-        <button type="submit" className="btn btn-primary">
+        <button type="submit">
           LOGIN
         </button>
       </form>

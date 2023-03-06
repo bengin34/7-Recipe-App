@@ -13,7 +13,7 @@ const Navbar = () => {
 
       <div>
         <NavLi to="/about" >ABOUT</NavLi>
-        <NavLi to="https://github.com/bengin34" target="_blank">GİTHUB</NavLi>
+        <NavLi href="https://github.com/bengin34" isExternal={true}>GİTHUB</NavLi>
         <NavLi to="/login">LOGOUT</NavLi>
       </div>
     </Nav>

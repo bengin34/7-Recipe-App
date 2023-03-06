@@ -2,7 +2,6 @@ import React from "react";
 import { createGlobalStyle } from "styled-components";
 import For from "./styled/Form.styled";
 
-// https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${meal}
 
 const Form = ({
   query,

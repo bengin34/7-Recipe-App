@@ -3,7 +3,6 @@ import Header from "../components/Header";
 import RecipeCard from "../components/RecipeCard";
 import axios from "axios";
 import CardContainer from "../components/styled/CardContainer.styled";
-import Navbar from "../components/Navbar";
 
 const APP_KEY = process.env.REACT_APP_KEY;
 const APP_ID = process.env.REACT_APP_ID;

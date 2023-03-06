@@ -25,6 +25,7 @@ const For = styled.form`
     margin: 0 0.3rem;
     font-size: 1rem;
     border-radius: 0.5rem;
+    border:none;
     margin: 1rem 1rem;
 
     @media (max-width: 768px) {

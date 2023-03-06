@@ -4,9 +4,9 @@ import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import { Navigate} from "react-router-dom";
 import Home from "../pages/Home";
-import Navbar from "../components/Navbar";
 import About from "../pages/About";
 import Login from "../pages/Login";
+import Contact from "../pages/Contact";
 import Details from "../pages/Details";
 import PrivateRouter from "./PrivateRouter";
 const AppRouter = () => {
@@ -22,6 +22,7 @@ const AppRouter = () => {
           <>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/details" element={<Details />} />
           </>
           ) : (

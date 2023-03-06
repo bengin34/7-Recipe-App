@@ -1,11 +1,9 @@
 import React from 'react'
 import AboutContainer from '../components/styled/AboutContainer.styled'
-import Navbar from "../components/Navbar";
 
 const About = () => {
   return (
     <>
-    <Navbar/>
     <AboutContainer>
 
      <img src="https://img.freepik.com/free-photo/portrait-smiling-chef-uniform_329181-675.jpg" alt="" />

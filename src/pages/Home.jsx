@@ -25,7 +25,6 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar/>
       <Header
         query={query}
         setQuery={setQuery}

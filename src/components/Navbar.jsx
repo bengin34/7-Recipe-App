@@ -5,15 +5,14 @@ const Navbar = () => {
   return (
     <Nav>
       <div>
-      <NavLi to="/">  
-      <h1>RECIPE</h1>
-      </NavLi>
-      
+        <NavLi to="/">
+          <h1>RECIPE</h1>
+        </NavLi>
       </div>
 
       <div>
-        <NavLi to="/about" >ABOUT</NavLi>
-        <NavLi href="https://github.com/bengin34" isExternal={true}>GİTHUB</NavLi>
+        <NavLi to="/about">ABOUT</NavLi>
+        <NavLi to="/contact">CONTACT</NavLi>
         <NavLi to="/login">LOGOUT</NavLi>
       </div>
     </Nav>

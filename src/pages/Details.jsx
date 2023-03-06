@@ -1,14 +1,12 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import DetailsContainer from "../components/styled/Detail.styled";
-import Navbar from "../components/Navbar";
 
 const Details = () => {
   const location = useLocation();
   const data = location.state;
   return (
     <>
-     <Navbar/>
     <DetailsContainer>
       <div className="header">
         {" "}
@@ -28,7 +26,7 @@ const Details = () => {
         </div>
         <div className="element">
           {" "}
-          <img src={data.image} alt="" />
+          <img src={data?.image} alt="" />
         </div>
         <div className="element">
           <ul>

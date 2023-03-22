@@ -19,21 +19,13 @@ App enables user to search recipes with one word from an API.
 - <a href="#" target="_blank"> <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/react_original_wordmark_logo_icon_146375.png" alt="react" width="50"/> </a> 
 - 💅 styled-component
 
-## Features
-What makes your project stand out?
-
-## Installation
-yarn 
-<br/>  
-yarn start
-
 ## API Reference
 
 https://www.edamam.com/
 
 ## How to use?
-Login as if authorized user.
-Choose a meal type then search your favourite food. 
+Login as if authorized user.<br>
+Choose a meal type then search your favourite food. <br>
 Click the "View More" button get the deails.
 
 ## License
